@@ -13,14 +13,6 @@ public class FirstOccurence {
 			
 			int mid = lo + (hi-lo)/2;
 			
-			/*if(a[mid] == n ) {
-				int i= mid-1;
-				while( i>=0  && a[i] == n) {
-					i--;
-				}
-				return i+1;
-			} */
-			
 		    if(a[mid]< n) {
 				lo = mid+1;
 			}
@@ -55,7 +47,7 @@ public class FirstOccurence {
 	    System.out.println(" first occurrence of the number 10 at index : " + FirstOccurence.getFirstOccurence(b, 10));
 		System.out.println(" first occurrence of the number 20 at index : " + FirstOccurence.getFirstOccurence(b, 20));
 		System.out.println(" first occurrence of the number 40 at index : " + FirstOccurence.getFirstOccurence(b, 40));
-		System.out.println(" first occurrence of the number 15 at index : " + FirstOccurence.getFirstOccurence(b, 50));
+		System.out.println(" first occurrence of the number 50 at index : " + FirstOccurence.getFirstOccurence(b, 50));
 		
 	}
 	
